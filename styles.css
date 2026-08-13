@@ -171,7 +171,7 @@
   }
   .avatar img{
     width:100%; height:100%;
-    object-fit:cover;      /* fills the square, cropping instead of stretching */
+    object-fit:contain;      /* fills the square, cropping instead of stretching */
     object-position:center top; /* keeps faces near the top of the crop */
     border-radius:inherit;
   }
@@ -219,7 +219,7 @@
     background:radial-gradient(circle at 35% 30%, #F3DFC0, var(--gold) 85%);
   }
   .prod-thumb img{
-    width:100%; height:100%; object-fit:contain;
+    width:100%; height:100%; object-fit:cover;
   }
   .prod-tag{
     position:absolute; top:12px; left:12px; background:rgba(43,24,16,0.85); color:var(--bg);
