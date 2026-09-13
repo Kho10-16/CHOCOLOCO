@@ -57,6 +57,11 @@
     font-size:1.5rem;
     display:flex; align-items:baseline; gap:2px;
   }
+.logo img {
+    height: 40px;   
+    width: auto;
+    display: block;
+  }
   .logo .dot{ color:var(--pistachio); font-style:italic; }
   .navlinks{ display:flex; gap:32px; font-weight:600; font-size:0.95rem; }
   .navlinks a{ position:relative; padding:4px 0; }
